@@ -33,14 +33,12 @@
 		<title>Lambda</title>
 		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 		<link rel='stylesheet' type='text/css' href='./css/style.css' />
-		<script type="text/javascript" src="js/mootools.js"></script> 
-		<script type="text/javascript" src="js/mootools-more.js"></script> 
 		<link rel="stylesheet" href="js/formcheck/theme/classic/formcheck.css" type="text/css" media="screen" />
 		<script type="text/javascript" src="js/formcheck/formcheck.js"></script>
 		<script type="text/javascript" src="js/formcheck/lang/fr.js"></script>
-		<link rel="stylesheet" href="css/form.css" type="text/css" media="screen" />
-		<script type="text/javascript" src="js/moostarrating.js"></script>
 		<meta http-equiv="Content-Language" content="fr" />
+		<script type="text/javascript" src="/js/helper.js"></script>
+	    <script async defer src="https://apis.google.com/js/api.js" onload="handleClientLoad()"> </script>
 	</head>
 	<body>
 		<div class="menu">
