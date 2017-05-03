@@ -1,0 +1,21 @@
+Arborescence : 
+./css/      : doit contenir les différentes feuilles de styles
+./js/       : les fichiers javascript (si vous en utilisez)
+./img/      : les différentes images du site
+./modules   : les différents modules
+./videos    : la où seront stockées les vidéos
+./scripts   : les scripts
+./helpers   : Les scripts d'aide, la classe HTML par exemple !
+
+
+Les modules : 
+Chaque module contient un répertoire à son nom
+ vues: les sous répertoires où il y a les vus.
+ actions  : le fichier ou il y a les actions 
+ 
+scripts : 
+./scripts/module.sh toto : crée un module toto
+./scripts/action.sh toto test  : crée une action test dans le module toto.
+
+
+ 
