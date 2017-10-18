@@ -17,8 +17,11 @@ class mainActions extends baseActions
   {
 		
 	$this->x="<h1>Hello World</h1>";
-  }    
-  public function executeRechercher(){
+  }  
+    
+
+          
+
   }
 
 }

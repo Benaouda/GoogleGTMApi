@@ -1,13 +1,13 @@
 var GoogleAuth, // Google Auth object.
 isAuthorized = false,
 currentApiRequest;
-
+debugger;
 function handleClientLoad() {
           // Load the API's client and auth2 modules.
           // Call the initClient function after the modules load.
           gapi.load('client:auth2', initClient);
         }
-        function initClient() {
+function initClient() {
           console.log('api client loaded');
           gapi.client.init({
             'apiKey': 'AIzaSyBwlBw6JVWDVQ4alw2sUVSt7QMHrRMGU1g',
@@ -35,7 +35,7 @@ function handleClientLoad() {
               GoogleAuth.isSignedIn.listen(updateSigninStatus);
             });
         }
-        function updateSigninStatus(){
+function updateSigninStatus(){
           if (GoogleAuth.isSignedIn.get()) {
             button.innerHTML="Sign Out";
             isAuthorized = true;
