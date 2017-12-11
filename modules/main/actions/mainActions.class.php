@@ -1,28 +1,11 @@
 <?php
-class mainActions extends baseActions 
+class mainActions extends baseActions
 {
-  public function executeindex() 
-  {  
-    
-    $k=new HTML();
-    $this->x="<h1>Hello World</h1>";
-  }
-  
-  public function executewatch() 
+  public function executeindex()
   {
-   $this->x="<h1>Hello World</h1>";
-  }
-  
-  public function executeprofil()
-  {
-		
-	$this->x="<h1>Hello World</h1>";
-  }  
-    
-
-          
-
   }
 
 }
+
+
 ?>

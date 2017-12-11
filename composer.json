@@ -1,0 +1,9 @@
+{
+    "require-dev": {
+        "phpmd/phpmd" : "@stable"
+
+    },
+    "require": {
+        "google/apiclient": "^2.0"
+    }
+}
